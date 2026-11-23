@@ -231,3 +231,17 @@ p { margin: 0; }
 .head-split .section-head { margin-bottom: 0; }
 .head-art { width: min(440px, 100%); height: auto; justify-self: center; }
 @media (max-width: 860px) { .head-split { grid-template-columns: 1fr; } .head-art { width: min(360px, 100%); } }
+/* Alianza */
+.ally-strip { margin-top: 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; padding: 18px 22px; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--clay); }
+.ally-strip p { flex: 1 1 320px; min-width: 0; }
+.ally-tag { font-size: var(--step--1); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--clay); }
+.ally-link { font-weight: 700; display: inline-flex; align-items: center; min-height: 44px; }
+.ally-lockup { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; font: 600 var(--step-1)/1.2 var(--font-display); color: var(--forest-deep); }
+.ally-lockup img { width: 64px; height: 64px; }
+.ally-x { color: var(--clay); font-size: var(--step-2); }
+.ally-partner { color: var(--slate); }
+.ally-hero h1 em { font-style: italic; color: var(--clay); font-weight: 500; }
+.ally-hero .wrap { gap: 22px; }
+.ally-note { margin-top: 24px; color: var(--muted); font-size: var(--step--1); max-width: 52rem; }
+.ally-list { max-width: 52rem; margin: 0; padding-left: 1.3em; display: grid; gap: 14px; }
+.ally-list li::marker { color: var(--clay); }
