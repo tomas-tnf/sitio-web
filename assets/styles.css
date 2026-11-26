@@ -252,3 +252,6 @@ p { margin: 0; }
 .pillar p.ally-fine { font-size: .95rem; border-top: 1px dashed var(--line); padding-top: 10px; margin-top: auto; }
 .ally-lockup img.ally-partner-logo { width: auto; height: 56px; max-width: 100%; }
 @media (max-width: 640px) { .ally-lockup img.ally-partner-logo { height: 46px; } }
+/* Anexo: mensaje de WhatsApp */
+.wa-msg { background: #E7F6E9; border: 1px solid #CBE7CF; border-radius: 14px; padding: 16px 18px; max-width: 560px; font-size: 1rem; line-height: 1.5; margin: 12px 0 8px; }
+.wa-msg .wa-btn { display: block; margin-top: 12px; text-align: center; background: #fff; border-radius: 10px; padding: 8px; color: #1f7a8c; font-weight: 600; }
